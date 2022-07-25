@@ -6,6 +6,7 @@ const date = (document.getElementById("date").innerHTML =
 const navBtn = document.getElementById("nav-btn");
 const navbar = document.getElementById("navbar");
 const navClose = document.getElementById("nav-close");
+const navAHrefClose = document.getElementById("href-close");
 
 //show nav
 navBtn.addEventListener("click", () => {
@@ -14,5 +15,9 @@ navBtn.addEventListener("click", () => {
 
 //close nav
 navClose.addEventListener("click", () => {
+  navbar.classList.remove("showNav");
+});
+
+navAHrefClose.addEventListener("click", function () {
   navbar.classList.remove("showNav");
 });
