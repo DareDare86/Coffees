@@ -21,3 +21,5 @@ navClose.addEventListener("click", () => {
 navAHrefClose.addEventListener("click", function () {
   navbar.classList.remove("showNav");
 });
+
+//smooth scrolling
