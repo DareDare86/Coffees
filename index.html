@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee</title>
+
+    <!-- Font linkovati min.css -->
+
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- SART HAMBURGER ICONs SVG ------------------------------------------>
+
+    <div click class="btn-hamburger-nav-bar" id="nav-btn">
+      <span class="coffee-span">
+        <svg
+          class="coffee"
+          c
+          width="36"
+          height="35"
+          viewBox="0 0 36 35"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.1262 9.08145C15.1527 9.24121 15.0721 9.37383 14.8014 9.50749C14.2528 9.2919 13.6593 9.20987 13.0715 9.26836C12.3955 9.32162 11.8277 9.53464 11.9041 9.98678C12.0102 10.4389 12.6608 10.7052 13.8229 10.5987C16.6608 10.3596 16.6343 8.47058 20.7967 8.09885C24.04 7.80647 25.8517 8.79011 26.0947 9.98678C26.2836 10.9172 25.5004 11.8215 23.1486 12.0084C21.0673 12.1942 19.8511 11.6356 19.7428 11.078C19.6887 10.7856 19.849 10.3596 20.8508 10.2531C20.957 10.7052 21.5269 11.1834 22.8779 11.0508C23.8575 10.9694 24.663 10.6185 24.5569 10.0964C24.4508 9.53777 23.4213 9.21928 21.7975 9.3519C18.5001 9.64428 17.6892 11.4267 14.8778 11.6659C12.8826 11.8465 11.2609 11.1291 11.0444 10.0651C10.9638 9.66621 10.9638 8.73581 13.0715 8.5489C14.153 8.46954 15.0179 8.65332 15.1262 9.0804V9.08145ZM4.58429 20.1981C3.70791 21.2613 3.26491 22.6072 3.34151 23.974C3.38628 24.5983 3.56616 25.206 3.86908 25.7564C4.17201 26.3067 4.591 26.787 5.09796 27.1651C5.59229 27.5561 6.1694 27.8332 6.78686 27.976C7.40433 28.1187 8.04645 28.1235 8.66605 27.99C9.20789 27.8578 9.7398 27.6889 10.258 27.4846C9.18708 27.4832 8.1518 27.1059 7.33837 26.4206C6.84133 26.0802 6.42138 25.6421 6.10501 25.134C5.78863 24.626 5.5827 24.0589 5.5002 23.4686C5.38044 22.9296 5.37654 22.3719 5.48876 21.8314C5.60098 21.2908 5.82684 20.7793 6.15183 20.3297C6.50533 19.8877 6.94639 19.521 7.44826 19.2517C7.95014 18.9825 8.50238 18.8163 9.07147 18.7634C10.2898 18.6795 11.4982 19.0285 12.4772 19.747C12.1985 19.4196 11.8909 19.117 11.5581 18.8427C11.0384 18.461 10.4387 18.1984 9.80257 18.0741C9.1665 17.9498 8.51022 17.967 7.88175 18.1243C6.56187 18.3963 5.38889 19.1344 4.58429 20.1992V20.1981ZM19.0732 14.054C16.1043 14.0778 13.1408 13.8013 10.2293 13.2291C7.82763 12.6443 6.55725 12.0063 6.55725 11.1824C6.55725 10.8368 6.71963 10.5444 7.20571 10.1988C5.69229 10.7835 4.88146 11.2628 4.88146 12.0073C4.96212 12.8323 6.31421 13.6561 9.07147 14.2942C12.3265 15.0097 15.6568 15.3399 18.9914 15.2778C22.3252 15.3442 25.655 15.0139 28.9082 14.2942C31.6676 13.6561 32.99 12.8051 32.99 12.0073C32.99 11.4226 32.3957 10.8587 31.3142 10.441C31.44 10.5174 31.5451 10.6227 31.6205 10.7478C31.6959 10.8729 31.7394 11.0142 31.7472 11.1594C31.7472 11.9844 30.5034 12.6485 27.9902 13.2071C25.0573 13.8034 22.0678 14.0873 19.0732 14.054ZM29.0207 16.3408C25.7614 17.0299 22.4343 17.3599 19.1008 17.3245C15.7407 17.3504 12.3875 17.0206 9.09906 16.3408C6.77482 15.756 5.53097 15.117 5.09902 14.4529C5.53763 17.2508 6.47158 19.9513 7.8584 22.4317C8.85815 23.9207 9.85896 25.2239 10.8587 26.6336C11.2712 27.4162 11.5801 28.2475 11.7778 29.1073C12.4524 30.0111 13.4296 30.6516 14.5372 30.9159C15.9565 31.4186 17.464 31.6355 18.9702 31.5539H19.1326C20.6808 31.62 22.228 31.4036 23.6962 30.9159C24.7623 30.6115 25.7005 29.9773 26.3717 29.1073H26.4524C26.6211 28.2503 26.903 27.4187 27.2908 26.6336C28.2905 25.2239 29.2914 23.9187 30.2911 22.4317C31.6496 19.9394 32.5809 17.2435 33.0473 14.4529C32.5071 15.1974 31.2632 15.8396 29.0197 16.3419L29.0207 16.3408Z"
+            fill="#FFCAA4"
+          />
+        </svg>
+      </span>
+      <span class="hamburger">
+        <svg
+          class="hamburger-icon"
+          width="39"
+          height="13"
+          viewBox="0 0 39 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            class="r1"
+            y="0.619141"
+            width="38.381"
+            height="3.71429"
+            rx="1.85714"
+            fill="#FFCAA4"
+          />
+          <rect
+            class="r2"
+            y="9.28516"
+            width="38.381"
+            height="3.71429"
+            rx="1.85714"
+            fill="#FFCAA4"
+          />
+        </svg>
+      </span>
+    </div>
+    <!-- END HAMBURGER ICONs SVG -->
+
+    <!-- SART NAVIGATION MENU with CLOSE icon --------------------------->
+
+    <div class="navbar" id="navbar">
+      <div class="navigation-container">
+        <span class="btn-close-icon" id="nav-close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="2.11768"
+              width="30.9464"
+              height="2.99481"
+              rx="1.4974"
+              transform="rotate(45 2.11768 0)"
+              fill="#FFCAA4"
+            />
+            <rect
+              y="21.8828"
+              width="30.9464"
+              height="2.99481"
+              rx="1.4974"
+              transform="rotate(-45 0 21.8828)"
+              fill="#FFCAA4"
+            />
+          </svg>
+        </span>
+        <div class="nav-link-list">
+          <ul role="list" class="nav-ul">
+            <li class="li-nav">
+              <a href="#" class="home li-nav-link">Home</a>
+            </li>
+            <li class="li-nav">
+              <a href="#" class="about li-nav-link">About</a>
+            </li>
+            <li class="li-nav">
+              <a href="#" class="product li-nav-link">Products</a>
+            </li>
+            <li class="li-nav">
+              <a href="#" class="service li-nav-link">Services</a>
+            </li>
+            <li class="li-nav">
+              <a href="#" class="contact li-nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- END NAVIGATION MENU with CLOSE icon  -->
+
+    <!-- SART HERO and img ------------------------------------------------>
+    <header class="hero-image-container">
+      <div class="wrapper hero-wrapper">
+        <div class="container hero">
+          <h3 class="h3hero">Over One Hundred Flavors Of</h3>
+          <h1 class="h1hero">
+            ESPECIALY <br />
+            CRAFTED <br />
+            COFFEE
+          </h1>
+          <a class="primary_button" href="#">EXPLORE</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- END HERO and img -->
+
+    <!-- START HORIZONTAL LINE GRADIENT --------------------------------------------------->
+    <div class="h-line"></div>
+    <!-- END HORIZONTAL LINE GRADIENT -->
+
+    <!-- START Product section --------------------------------------------------->
+    <section class="product-section">
+      <div class="wrapper wrapper4 padding-bottom">
+        <div class="display">
+          <div
+            class="product-container classic"
+            data-aos="fade-right"
+            data-aos-duration="700"
+          >
+            <span class="skill-icon classic-icon">
+              <i class="fas fa-mug-hot"></i>
+            </span>
+            <h4 class="h4product">Classic</h4>
+            <p class="product-description">
+              Short black, is approximately 1 oz. of highly concentrated coffee.
+            </p>
+          </div>
+          <div
+            class="product-container frappe"
+            data-aos="fade-left"
+            data-aos-duration="700"
+          >
+            <span class="skill-icon">
+              <i class="fas fa-glass-cheers"></i>
+            </span>
+            <h4 class="h4product">Frappe</h4>
+            <p class="product-description">
+              Frappuccino, cafés around the world have turned to <br />
+              "frappé" .
+            </p>
+          </div>
+          <div
+            class="product-container caffeine-bomb"
+            data-aos="fade-right"
+            data-aos-duration="700"
+          >
+            <span class="skill-icon">
+              <i class="fas fa-bomb"></i>
+            </span>
+            <h4 class="h4product">Caffeine bomb</h4>
+            <p class="product-description">
+              This drink is highly concentratedand strong. Try it now!
+            </p>
+          </div>
+          <div
+            class="product-container raf"
+            data-aos="fade-left"
+            data-aos-duration="700"
+          >
+            <span class="skill-icon">
+              <i class="fas fa-mortar-pestle"></i>
+            </span>
+            <h4 class="h4product">Raf</h4>
+            <p class="product-description">
+              Raf coffee originated in mid-1990 Russia when Rafael Timerbaev
+              walked into a Coffee Bean.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END Product section  ---->
+
+    <!-- START ABOUT SECTION-------------------------------------->
+
+    <section class="about-secion padding-top-bottom">
+      <div class="wrapper">
+        <div class="about-container">
+          <div class="img-holder">
+            <img
+              class="about-img"
+              src="./assets/img/about.jpg"
+              alt="coffees store image"
+            />
+          </div>
+          <div
+            data-aos="fade-right"
+            class="about-article"
+            data-aos-duration="2000"
+          >
+            <h2 class="h2about">About</h2>
+            <h4 class="h4about-text">Coffees</h4>
+            <p class="coffee-body">
+              We are not only a place to drop in and get your morning cup of
+              coffee, we are a place where you can sit down and enjoy that
+              tailor-made cup of coffee. If you need to rest, we have a
+              soft-seating area in front of a stone fire place that is perfect
+              for your weary mind and body. We have everything from classic
+              coffee to our house made specialty beverages. All of our sauces &
+              syrups are made in-house with all natural ingredients .
+            </p>
+            <a class="link-readmore" href="#">Read more...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END ABOUT SECTION--->
+
+    <!-- START Check this out-------------------------------------->
+
+    <section class="check-this-out">
+      <div class="wrapper">
+        <h2 class="check-this-out-h2 h2about">Check this Out!</h2>
+        <div class="CTO-container">
+          <div
+            class="CTO-card-classic"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
+            <div class="CTO-img-holder classicCTO"></div>
+            <div class="type-coffee">
+              <p class="type-coffee-text h4product">Classic</p>
+            </div>
+          </div>
+
+          <div
+            class="CTO-card-frappe"
+            data-aos="flip-right"
+            data-aos-duration="1500"
+          >
+            <div class="CTO-img-holder frappeCTO"></div>
+            <div class="type-coffee">
+              <p class="type-coffee-text h4product">Frappe</p>
+            </div>
+          </div>
+          <div
+            class="CTO-card-caffeine-bomb"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+          >
+            <div class="CTO-img-holder caffeine-bombCTO"></div>
+            <div class="type-coffee">
+              <p class="type-coffee-text h4product">Caffeine bomb</p>
+            </div>
+          </div>
+          <div
+            class="CTO-card-raf"
+            data-aos="flip-right"
+            data-aos-duration="2500"
+          >
+            <div class="CTO-img-holder rafCTO"></div>
+            <div class="type-coffee">
+              <p class="type-coffee-text h4product">Raf</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Check this out--->
+
+    <!-- START DISCOVER-------------------------------------->
+    <section class="Discover">
+      <h2 class="h2about Discover-our-services">Discover our services</h2>
+      <div class="wrapper2">
+        <div class="flex-container">
+          <div class="discover-container take-a-way box-shadow2">
+            <div class="discover-card-take-a-way">
+              <span class="discover-service-icon-take-a-way">
+                <i class="fas fa-mortar-pestle fa-fw"></i>
+              </span>
+              <div class="card-content">
+                <h4 class="discover-name-take-a-way">Take a way</h4>
+                <p class="content-text-take-a-way">
+                  Short black, is approximately 1 of highly concentrated coffee.
+                </p>
+                <a class="secu_button-take-a-way" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="discover-container coffees-place box-shadow">
+            <div class="discover-card-coffees-place">
+              <span class="discover-service-icon-coffees-place">
+                <i class="fas fa-home fa-fw"></i>
+              </span>
+              <div class="card-content">
+                <h4 class="discover-name-coffees-place">Coffees place</h4>
+                <p class="content-text-coffees-place">
+                  Short black, is so much highly concentrated coffee.
+                </p>
+                <a class="secu_button-coffees-place" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="discover-container custom-coffee box-shadow2">
+            <div class="discover-card-custom-coffee">
+              <span class="discover-service-icon-take-a-way">
+                <i class="fas fa-mug-hot fa-fw"></i>
+              </span>
+              <div class="card-content">
+                <h4 class="discover-name-take-a-way">Custom coffee</h4>
+                <p class="content-text-take-a-way">
+                  Short black, is approximately 1 of highly concentrated coffee.
+                </p>
+                <a class="secu_button-take-a-way" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END DISCOVER--->
+    <!-- START CONTACT-------------------------------------->
+    <section class="contact-section">
+      <div class="wrapper wrapper3">
+        <div class="flex-contact-container">
+          <div class="container-conact-form">
+            <div class="address-container">
+              <div class="address-main">
+                <span class="contact-icon">
+                  <i class="fas fa-location-arrow"></i>
+                </span>
+                <p class="address-p">Address:</p>
+              </div>
+              <div class="text-address">
+                <h5>Milana Rakica 16, 11000 Belgrade</h5>
+              </div>
+            </div>
+            <div class="email-container">
+              <div class="email-main">
+                <span class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <p class="email-p">Email:</p>
+              </div>
+              <div class="text-email">
+                <h5>coffees@gmail.com</h5>
+              </div>
+            </div>
+            <div class="phone-container">
+              <div class="phone-main">
+                <span class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </span>
+                <p class="phone-p">Phone:</p>
+              </div>
+              <div class="text-phone">
+                <h5>+381 3478 655</h5>
+              </div>
+            </div>
+          </div>
+          <div class="form-container">
+            <div class="h2-holder">
+              <h2 class="h2SendUsAMessage">Send us a message</h2>
+            </div>
+
+            <div class="form-holder">
+              <form method="post" action="">
+                <div class="input-holder">
+                  <div class="form-name">
+                    <label for="name-id"></label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name-id"
+                      placeholder="Name:"
+                      required
+                    />
+                  </div>
+                  <div class="form-email">
+                    <label for="email-id"></label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email-id"
+                      placeholder="Email:"
+                      required
+                    />
+                  </div>
+                  <div class="form-message">
+                    <label for="message-text-id"></label>
+                    <textarea
+                      id="message-text-id"
+                      name="message-text"
+                      rows="4"
+                      cols="4"
+                      placeholder="Message:"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="btn-form-send-holder">
+                  <button type="submit" class="btn-form-send">SEND</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENd CONTACT------->
+    <!-- START footer------------------------------------------------->
+
+    <!-- end footer -->
+
+    <section class="footer-section">
+      <div class="wrapper">
+        <div class="footer-container">
+          <div class="social-container">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div class="footer-text">
+            <p class="footer-body-text">
+              © <span id="date">2020</span> Coffees All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jS script -->
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
