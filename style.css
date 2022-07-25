@@ -87,7 +87,7 @@
 ::before {
   box-sizing: border-box;
 
-  scroll-behavior: auto !important;
+  
 }
 
 * {
@@ -98,10 +98,13 @@
 /*
   Allow percentage-based heights in the application
 */
+html{
+  scroll-behavior: smooth; !important
+}
 
 html,
 body {
-  scroll-behavior: smooth;
+  
   height: 100%;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -109,9 +112,10 @@ body {
 }
 
 /* Set core root defaults */
-html:focus-within {
+ html:focus-within {
   scroll-behavior: smooth;
-}
+} 
+
 
 /*
 Improve media defaults */
